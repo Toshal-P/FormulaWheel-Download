@@ -97,7 +97,7 @@ In F1 2018 / 2020 / 2023 / 2024 (or other Codemasters F1 titles):
 
 ## 🔒 Privacy
 
-FormulaWheel does not collect, store, or transmit any personal information or device telemetry to external servers. All network transmissions are strictly local between your phone and your PC. See our full [Privacy Policy](privacy-policy.html).
+FormulaWheel does not collect, store, or transmit any personal information or device telemetry to external servers. All network transmissions are strictly local between your phone and your PC. See our full [Privacy Policy](https://Toshal-P.github.io/FormulaWheel-Download/privacy-policy.html).
 
 ---
 
