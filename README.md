@@ -1,3 +1,25 @@
+<p align="center">
+  <img src="logo.png" alt="FormulaWheel Logo" width="160" height="160" style="border-radius: 20px;">
+</p>
+
+<h1 align="center">FormulaWheel (FW)</h1>
+
+<p align="center">
+  <b>Turn your Android phone into an authentic F1 steering wheel controller</b><br>
+  <i>Live UDP Telemetry • 15 Shift LEDs • Virtual Xbox 360 Emulation</i>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Toshal-P/FormulaWheel-Download/releases/latest">
+    <img src="https://img.shields.io/github/v/release/Toshal-P/FormulaWheel-Download?color=ff1e38&label=Latest%20Release" alt="Release">
+  </a>
+  <a href="https://Toshal-P.github.io/FormulaWheel-Download/">
+    <img src="https://img.shields.io/badge/Website-Live-00e5ff" alt="Website">
+  </a>
+  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20Windows-00ff66" alt="Platforms">
+</p>
+
+---
 # 🏎️ FormulaWheel (FW)
 
 Turn your Android smartphone into an authentic Formula 1 steering wheel controller with live bi-directional UDP telemetry, 15 RPM shift LEDs, and virtual Xbox 360 controller emulation.
