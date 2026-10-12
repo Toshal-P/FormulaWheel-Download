@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - FormulaWheel</title>
+  <style>
+    :root {
+      --bg: #0b0d10;
+      --card-bg: #151920;
+      --border: #232a35;
+      --text: #e0e6ed;
+      --text-muted: #8c9ba5;
+      --accent: #ff1e38;
+      --accent-cyan: #00e5ff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 30px 16px;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 36px 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    .header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+    }
+    .brand {
+      display: inline-block;
+      font-weight: 900;
+      font-size: 26px;
+      letter-spacing: 1px;
+      color: #ffffff;
+    }
+    .brand span { color: var(--accent); }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: var(--accent-cyan);
+      background: rgba(0,229,255,0.1);
+      border: 1px solid rgba(0,229,255,0.25);
+      border-radius: 4px;
+      padding: 2px 8px;
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+    .effective-date {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 6px;
+    }
+    h2 {
+      font-size: 18px;
+      color: #ffffff;
+      margin-top: 24px;
+      margin-bottom: 10px;
+    }
+    p, li {
+      font-size: 14.5px;
+      color: #cfd8dc;
+      margin-bottom: 12px;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 16px;
+    }
+    .highlight-box {
+      background: rgba(0, 229, 255, 0.05);
+      border-left: 3px solid var(--accent-cyan);
+      padding: 14px 16px;
+      border-radius: 0 8px 8px 0;
+      margin: 18px 0;
+    }
+    .footer {
+      border-top: 1px solid var(--border);
+      margin-top: 30px;
+      padding-top: 18px;
+      font-size: 13px;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <div class="brand">FORMULA<span>WHEEL</span> <span class="badge">Official Policy</span></div>
+    <div class="effective-date">Last Updated: October 2026</div>
+  </div>
+
+  <div class="highlight-box">
+    <strong>Summary:</strong> FormulaWheel does not collect, record, or share any personal information, tracking identifiers, or device data. All communication is strictly confined to your local Wi-Fi network or direct USB connection between your Android phone and your personal computer.
+  </div>
+
+  <h2>1. Overview</h2>
+  <p>
+    This Privacy Policy explains the privacy practices for the <strong>FormulaWheel</strong> mobile application (hereinafter referred to as the "App"). We respect your privacy and are committed to ensuring complete transparency regarding how data is handled.
+  </p>
+
+  <h2>2. Information Collection and Use</h2>
+  <p>
+    The App does <strong>not</strong> collect or transmit any personally identifiable information (PII) to external cloud servers, advertisers, analytics providers, or third parties.
+  </p>
+  <ul>
+    <li><strong>No Account Required:</strong> You do not need to register, provide an email address, or log in to use the App.</li>
+    <li><strong>No Cloud Storage:</strong> None of your telemetry or racing data is stored or logged on remote servers.</li>
+    <li><strong>No Analytics or Ads:</strong> The App contains no advertising SDKs, tracking pixels, or third-party behavioral analytics libraries.</li>
+  </ul>
+
+  <h2>3. Device Sensors and Network Permissions</h2>
+  <p>To function as a virtual steering wheel controller for PC racing games, the App requires specific Android hardware and network permissions:</p>
+  <ul>
+    <li><strong>Accelerometer & Gyroscope Sensors:</strong> Used strictly in real-time to compute the steering tilt angle of your device. These sensor readings are processed locally in volatile memory and are never saved to persistent storage.</li>
+    <li><strong>Local Network & Internet Permission:</strong> Used solely to send real-time control packets (steer, brake, throttle, buttons) and receive UDP telemetry directly across your Local Area Network (LAN) or direct USB (ADB reverse) connection to your PC running the FormulaWheel Receiver application. No packets are routed over the public internet.</li>
+    <li><strong>Haptic Vibration:</strong> Used locally on the device to provide tactile feedback when tapping controller buttons.</li>
+  </ul>
+
+  <h2>4. Third-Party Services</h2>
+  <p>
+    The App does not integrate with third-party tracking or advertising services (such as Google AdMob, Firebase Analytics, or Facebook Audience Network).
+  </p>
+
+  <h2>5. Children's Privacy</h2>
+  <p>
+    FormulaWheel does not collect personal data from anyone, including children under the age of 13.
+  </p>
+
+  <h2>6. Changes to This Privacy Policy</h2>
+  <p>
+    We may periodically update this policy if app features evolve. Any changes will be posted to this page with an updated effective date.
+  </p>
+
+  <h2>7. Contact</h2>
+  <p>
+    If you have any questions or feedback regarding this Privacy Policy, please open an issue on the official GitHub project repository.
+  </p>
+
+  <div class="footer">
+    &copy; 2026 FormulaWheel. All rights reserved.
+  </div>
+</div>
+
+</body>
+</html>
