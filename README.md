@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="FormulaWheel Logo" width="160" height="160" style="border-radius: 20px;">
+  <img src="FormulaWheel.png" alt="FormulaWheel Logo" width="160" height="160" style="border-radius: 20px;">
 </p>
 
 <h1 align="center">FormulaWheel (FW)</h1>
